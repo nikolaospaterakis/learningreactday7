@@ -1,2 +1,4 @@
 # learningreactday7
-first solo project
+My first mini solo project
+
+The resutlt: >.< ![alt text](https://github.com/nikolaospaterakis/learningreactday5/blob/main/theresult.jpg)
