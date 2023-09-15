@@ -1,0 +1,98 @@
+
+body {
+    margin: 0;
+    background-color: #23252C;
+    color: #FFFF;
+    font-family: Inter, sans-serif;
+    display: flex;
+}
+
+.everything {
+    align-items: center;
+    flex-direction: column;
+    width: 300;
+    background-color: #1A1B21;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.profilephoto {
+    width: 300;
+    height: 300;
+}
+
+.prof-header > h2 {
+    text-align: center;
+}
+
+.prof-header > h3 {
+    color: #F3BF99;
+    text-align: center;
+    font-size: 16px;
+}
+
+.prof-header > h4 {
+    text-align: center;
+    font-size: 12px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons > button {
+    padding: 8 10;
+    margin: 10 ;
+    border-radius: 6px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 120px;
+    border: none;
+} 
+
+.linkedin {
+    background-color: #5093E2;
+    color: #FFFF;
+}
+
+.linkedin-icon {
+    margin: 0 5;
+}
+
+.main {
+    background-color: #1A1B21;
+}
+
+.about {
+    padding: 10px 30px;
+}
+
+.about > p {
+    font-size: 14px;
+}
+
+.interests {
+    padding: 10px 30px;
+}
+
+.interests > p {
+    font-size: 14px;
+}
+
+.footer {
+    background-color: #161619;
+    text-align: center;
+    width: 260px;
+    padding: 20;
+    border-radius: 0 0 12px 12px;
+}
+
+.footer > icon {
+    padding: 10px;
+    color: #ffbf80;
+    font-size: 35px;
+}
