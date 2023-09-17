@@ -1,21 +1,18 @@
 import React from "react";
+import heroLogo from "../images/herophoto.jpg"
 
 export default function Main() {
-
     return(
-        <div className="main">
-            <div className="about">
-                <h3>About</h3>
-                <p>I am passionate and eager Software Engineer that likes to explore and 
-                    learn new programming languages. I want to learn all about web 
-                    development, mobile programming, gaming programming and data science!</p>
-            </div>
-            <div className="interests">
-                <h3>Interests</h3>
-                <p>Calisthenics, Music, Gaming, Traveling, Walks with my dogs
-                    Cat fanatic and the attitude of being Delulu ✨
-                </p>
-            </div>
+        <div className="main-hero">
+            <img
+            alt="hero"
+            src={heroLogo}
+            className="main-img">
+            </img>
+            <h1>Online Experiences</h1>
+            <h2>Join unique interactive activities led by one-of-a-kind
+                hosts-all without leaving home.
+            </h2>
         </div>
     )
 }
