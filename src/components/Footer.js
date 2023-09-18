@@ -1,15 +1,19 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquareTwitter, faSquareFacebook, faSquareInstagram, faSquareGithub } from '@fortawesome/free-brands-svg-icons'
+import Card from "./Card";
+import heroCard from "../images/katie.jpg"
+import starImg from "../images/star.jpg"
 
 export default function Footer() {
-
     return(
-        <footer className="footer">
-            <icon><FontAwesomeIcon icon={faSquareTwitter} /></icon>
-            <icon><FontAwesomeIcon icon={faSquareFacebook} /></icon>
-            <icon><FontAwesomeIcon icon={faSquareInstagram} /></icon>
-            <icon><FontAwesomeIcon icon={faSquareGithub} /></icon>
-        </footer>
+        <div>
+        <Card 
+            heroimg={heroCard}
+            starimg={starImg}
+            rating="5.0"
+            reviewCount="(6)"
+            country="USA"
+            title="Life Lessons with Katie Zaferes"
+            price="136"/>
+        </div>
     )
 }
