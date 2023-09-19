@@ -67,3 +67,24 @@ card {
 bol {
     font-weight: 600;
 }
+
+.cards-all {
+    display: flex;
+    flex-direction: row;
+    position: inherit;
+    right: 0%;
+}
+
+.availability {
+    border: 2px solid black;
+    max-width: 100;
+    padding: 10;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    font-size: 14;
+    border-radius: 8px;
+    position: absolute;
+    background-color: #ffff;
+    margin: 10;
+}

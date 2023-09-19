@@ -1,19 +1,33 @@
 import React from "react";
 import Card from "./Card";
-import heroCard from "../images/katie.jpg"
-import starImg from "../images/star.jpg"
+import data from "../data";
+
+
 
 export default function Footer() {
-    return(
-        <div>
-        <Card 
-            heroimg={heroCard}
-            starimg={starImg}
-            rating="5.0"
-            reviewCount="(6)"
-            country="USA"
-            title="Life Lessons with Katie Zaferes"
-            price="136"/>
-        </div>
-    )
+
+        const cards = data.map(item => {
+            return (
+                <Card 
+                    key={item.id}
+                    item ={item} />
+            )
+        })
+
+        return (
+            <div className="cards-all">
+                {cards}
+            </div>
+        )
 }
+
+/*                    heroimg={item.heroimg}
+                    starimg={item.starimg}
+                    rating={item.stats.rating}
+                    reviewCount={item.stats.reviewCount}
+                    country={item.location}
+                    title={item.title}
+                    price={item.price}
+                    openSpots={item.openSpots}/>  
+
+*/
